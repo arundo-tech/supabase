@@ -6,8 +6,8 @@ The goals of this fork are :
 
 * [ ] full support of nuxt SSG
 * [ ] working example of a nuxt site in SSG mode
-* [ ] manual switch to SSR or SSG mode
-* [ ] auto-dectection of SSR/SSG mode
+* [ ] manual switch to SSR or SSG mode / imposible in hybrid mode (mixing SSG/SSR/CSR)
+* [ ] auto-dectection of SSR/SSG mode / imposible in hybrid mode (mixing SSG/SSR/CSR)
 * [ ] working example of a magic link email auth with supabase
 * [ ] working example of auto session token renewal
 * [ ] working example of auth event (login, logout, renewal, ...)
@@ -16,10 +16,11 @@ The goals of this fork are :
 * [ ] migration to pnpm (?)
 * [ ] an extended demo nuxt app with :
 * [ ]   - some public nuxt content pages
-* [ ]   - some public nuxt content pages
 * [ ]   - some auth protected nuxt content pages
 * [ ]   - a layer nuxt package (containing the auth logic)
 * [ ]   - a basic rules set to define public/private routes for content pages
+* [ ]   - how to generate staticaly pages with authentication
+
 
 
 We will submit a PR when all the goals will be fullfilled.
