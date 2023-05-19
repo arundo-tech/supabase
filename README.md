@@ -19,6 +19,7 @@ The goals of this fork are :
 * [ ]   - some public nuxt content pages
 * [ ]   - some auth protected nuxt content pages
 * [ ]   - a layer nuxt package (containing the auth logic)
+* [ ]   - a basic rules set to define public/private routes for content pages
 
 
 We will submit a PR when all the goals will be fullfilled.
