@@ -1,5 +1,24 @@
 [![@nuxtjs/supabase](./docs/public/cover.jpg)](https://supabase.nuxtjs.org)
 
+This is a friendly fork of [nuxt-modules/supabase](https://github.com/nuxt-modules/supabase).
+
+The goals of this fork are :
+
+* full support of nuxt SSG
+* working example of a nuxt site in SSG mode
+* manual switch to SSR or SSG mode
+* auto-dectection of SSR/SSG mode
+* working example of a magic link email auth with supabase
+* working example of auto session token renewal
+* working example of auth event (login, logout, renewal, ...)
+* documentation on how to embed this module in a nuxt layer and use it in another nuxt site
+* documentation on how to link to an existing nuxt site to allow dev/test/debug session on both projects
+* migration to pnpm (?)
+
+We will submit a PR when all the goals will be fullfilled.
+This project will be deprecated when the PR will be merged mainstream.
+
+
 # Nuxt Supabase
 
 [![npm version][npm-version-src]][npm-version-href]
