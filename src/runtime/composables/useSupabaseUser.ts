@@ -4,7 +4,7 @@ import { useSupabaseToken } from './useSupabaseToken'
 import { useState } from '#imports'
 
 export const useSupabaseUser = (): Ref<User | null> => {
-  const user = useState<User | null>('supabase_user')
+  const user = useState<User | null>('supabase_user', () => null)
   const token = useSupabaseToken()
 
   // Check token and set user to null if not set (check for token expiration)
