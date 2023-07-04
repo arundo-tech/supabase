@@ -22,7 +22,6 @@ The goals of this fork are :
 * [ ]   - how to generate staticaly pages with authentication
 
 
-
 We will submit a PR when all the goals will be fullfilled.
 This project will be deprecated when the PR will be merged mainstream.
 
